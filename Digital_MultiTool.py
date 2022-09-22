@@ -2,7 +2,6 @@ from distutils.cmd import Command
 import tkinter as Tk
 from tkinter import *
 from turtle import left
-
 from Calculadora import vista_tkinter
 
 mainT = Tk()
