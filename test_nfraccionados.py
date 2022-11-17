@@ -5,13 +5,13 @@ from Calculadora import restaFraccion, sumaFraccion, multiplicacionFraccion, div
 class TestFraccion(unittest.TestCase):
     
     def test_suma(self):
-        self.assertAlmostEqual(sumaFraccion(1,2), 3)
+        self.assertAlmostEqual(sumaFraccion(3,5,4,4), 3)
 
     def test_resta(self):
-        self.assertAlmostEqual(restaFraccion(5,5,5,5), 1/)
+        self.assertAlmostEqual(restaFraccion(5,5,5,5), [25,25])
     
     def test_multiplicacionFraccion(self):
-        self.assertAlmostEqual(multiplicacionFraccion(1,2,3,4), 3/8)
+        self.assertAlmostEqual(multiplicacionFraccion(5,5,5,5), [25,25])
     
     def test_divisionFraccion(self):
-        self.assertAlmostEqual(divisionFraccion(1,2,3,4), 2/3)
+        self.assertAlmostEqual(divisionFraccion(5,5,5,5), (25,25))
