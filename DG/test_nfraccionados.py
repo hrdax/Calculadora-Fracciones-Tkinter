@@ -1,11 +1,10 @@
 import unittest
-from ClassFraccion import *
 from Calculadora import restaFraccion, sumaFraccion, multiplicacionFraccion, divisionFraccion
 
 class TestFraccion(unittest.TestCase):
     
     def test_suma(self):
-        self.assertAlmostEqual(sumaFraccion(3,4,5,5), [15,20])
+        self.assertAlmostEqual(sumaFraccion(3,4,5,5), [35,20])
 
     def test_resta(self):
         self.assertAlmostEqual(restaFraccion(5,5,5,5), [25,25])

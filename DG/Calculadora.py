@@ -30,7 +30,7 @@ def division(n1, n2):
 def sumaFraccion(n1,n2,n3,n4):
     fraccion1 = Fraccion(n1, n2)
     fraccion2 = Fraccion(n3, n4)
-    fraccionnueva = fraccion1.multiplicar(fraccion2)
+    fraccionnueva = fraccion1.sumar(fraccion2)
     print(f'la suma es de {str(fraccionnueva)}')
     return fraccionnueva
     
