@@ -5,7 +5,7 @@ from Calculadora import restaFraccion, sumaFraccion, multiplicacionFraccion, div
 class TestFraccion(unittest.TestCase):
     
     def test_suma(self):
-        self.assertAlmostEqual(sumaFraccion(3,5,4,4), 3)
+        self.assertAlmostEqual(sumaFraccion(3,4,5,5), [15,20])
 
     def test_resta(self):
         self.assertAlmostEqual(restaFraccion(5,5,5,5), [25,25])
